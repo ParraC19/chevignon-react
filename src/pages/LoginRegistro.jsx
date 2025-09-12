@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import '../pages/LoginRegistro.css';
 
 const LoginRegistro = () => {
     const containerRef = useRef(null);
@@ -72,3 +71,4 @@ const LoginRegistro = () => {
 };
 
 export default LoginRegistro;
+
