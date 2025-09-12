@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import logoBlancoChevignonClasicoSinFondo from "../assets/imagenes/logoBlancoChevignonClasicoSinFondo.png";
-import logopaypal from "../assets/imagenes/logopaypal.png";
-import logoPse from "../assets/imagenes/logoPse.jpg";
-import logoTarjetas from "../assets/imagenes/logoTarjetas.jpg";
+import logoBlancoChevignonClasicoSinFondo from "../assets/images/logos/logoBlancoChevignonClasicoSinFondo.png";
+import logopaypal from "../assets/images/logos/logopaypal.png";
+import logoPse from "../assets/images/logos/logoPse.jpg";
+import logoTarjetas from "../assets/images/logos/logoTarjetas.jpg";
 function Checkout() {
   // Estado para el paso actual
   const [currentStep, setCurrentStep] = useState(1);

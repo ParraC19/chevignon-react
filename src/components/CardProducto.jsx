@@ -43,7 +43,7 @@ function CardProducto({ productos }) {
 
           <div className="absolute inset-0 bg-black/10 transition-opacity duration-300 group-hover:bg-black/25" />
 
-          <div className="relative text-center text-white p-6 w-full">
+          <div className="relative text-center text-neutral-950 shadow p-2 w-full ">
             <h3 className="text-2xl font-semibold mb-2">{producto.nombre}</h3>
             <span className="text-xl font-bold block mb-4">${producto.precio}</span>
 

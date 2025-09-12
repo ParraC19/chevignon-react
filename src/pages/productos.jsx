@@ -46,7 +46,7 @@ export default function Productos() {
   return (
 
     <div>
-      <Header />
+      
 
       <main className="container mx-auto py-6 flex flex-col gap-6">
         <section className="px-6 py-25 border-b">
@@ -132,7 +132,7 @@ export default function Productos() {
       {/* envios */}
       <Envios />
       {/* footer */}
-      <Footer />
+      
     </div>
     
   );
