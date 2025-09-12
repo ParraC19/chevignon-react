@@ -4,8 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { routerApp } from "./routes/routerApp";
 import './index.css'
-import Productos from './pages/Productos';
-import Home from './pages/Home';
+
+
 
 
 
