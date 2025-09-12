@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { endpoints } from "../utils/api";
 import Carrito from "./Carrito";
 import { Link } from "react-router-dom";
+import logoBlancoChevignonClasicoSinFondo from "../assets/images/logos/logoBlancoChevignonClasicoSinFondo.png";
+
 
 function Header() {
   const [abierto, setAbierto] = useState(false);
@@ -56,19 +58,19 @@ function Header() {
             Tasas y fletes calculados en el carrito
           </p>
 
-          <a href="/checkout.html">
+          <Link to="checkout">
             <button className="w-full transform hover:-translate-y-1 bg-black text-white px-6 py-3 text-sm font-semibold shadow-lg rounded transition duration-200 hover:shadow-2xl active:scale-95 cursor-pointer">
               Ir al checkout
             </button>
-          </a>
+          </Link>
         </div>
       </div>
 
       <div className={`flex justify-between items-center lg:hidden`}>
         <div className="max-w-[140px] hover:scale-105 transition">
-          <Link to="/index.html">
+          <Link to="/">
             <img
-              src={`${endpoints}public/img/logos/logoBlancoChevignonClasicoSinFondo.png`}
+              src={logoBlancoChevignonClasicoSinFondo}
               alt="Logo"
               className="h-12 w-auto"
             />
@@ -102,9 +104,9 @@ function Header() {
       <div className="hidden lg:flex lg:justify-between lg:items-center lg:w-full">
         {/* Logo Section - Left */}
         <div className="max-w-[140px] hover:scale-105 transition">
-          <Link to="/index.html">
+          <Link to="/">
             <img
-              src="/assets/images/logos/logoBlancoChevignonClasicoSinFondo.png"
+              src={logoBlancoChevignonClasicoSinFondo}
               alt="Logo"
               className="h-12 w-auto"
             />

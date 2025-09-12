@@ -186,7 +186,7 @@ function PaginaProducto() {
 
           <button
             id="btnAgregarCarrito"
-            className="w-full bg-[var(--color-texto)] text-[var(--color-texto-inverso)] tracking-[2px] py-4 px-6 rounded-md font-semibold transition duration-200 ease-in-out hover:scale-105"
+            className="w-full bg-gray-950 text-white tracking-[2px] py-4 px-6 rounded-md font-semibold transition duration-200 ease-in-out hover:scale-105"
           >
             Agregar a la bolsa
           </button>

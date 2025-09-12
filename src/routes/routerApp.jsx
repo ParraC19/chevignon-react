@@ -1,8 +1,9 @@
-import { Children } from "react";
+
 import Productos from "../pages/Productos";
 import Home from "../pages/Home";
-import Login from "../pages/LoginRegistro";
+import LoginRegistro from "../pages/LoginRegistro";
 import PaginaProducto from "../pages/PaginaProducto";
+import Checkout from "../pages/Checkout.jsx";
 
 export let routerApp = [
   {
@@ -19,8 +20,12 @@ export let routerApp = [
       },
       {
         path: "login",
-        element: <Login />,
+        element: <LoginRegistro />,
       },
+      {
+        path: "checkout",
+        element: <Checkout/>
+      }
     ],
   },
 ];
